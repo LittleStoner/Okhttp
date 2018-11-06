@@ -7,5 +7,38 @@
         android:id="@+id/tv_init"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="初始化"/>
+        android:text="初始化">
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_asyn_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异步get"/>
+        <Button
+            android:id="@+id/bt_syn_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同步get"/>
+
+        <Button
+            android:id="@+id/bt_asyn_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异步post"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_showok"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:hint="show msg!"/>
+
 </LinearLayout>
